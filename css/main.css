@@ -16,8 +16,7 @@ body{
   #ccc linear-gradient(to bottom, #ccc 0%, #eee 30%, #fff 60%, #fff 100%);
 }
 /* 숨김 컨텐츠 */
-.a11y-hidden{
-  background-color: red;
+.a11y-hidden, legend{
   position: absolute;
   width: 1px;
   height: 1px;
@@ -293,7 +292,6 @@ a{
 
 .group1{
   width: 250px;
-  float: right;
 }  
 
 .group2{
