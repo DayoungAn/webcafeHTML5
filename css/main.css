@@ -732,7 +732,35 @@ a{
 
 /* 관련 사이트 */
 .related{
+  padding-top: 10px;  
+}
 
+.related-list{
+  margin-top: 10px;
+  background-color: #fff;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  height: 27px;
+  overflow: hidden;
+  transition: height 250ms, padding 250ms 250ms;
+}
+
+.related-list li{
+  height: 25px;
+  padding: 4px;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.related-list a{
+  width: 100%;
+  padding: 0 15px;
+}
+
+.related-list:focus, .related-list:hover{
+  height: 147px;
+  padding: 10px 0;
 }
 
 /* 슬로건 */
